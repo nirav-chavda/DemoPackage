@@ -7,7 +7,7 @@ This is my first custom package for displaying Hello World using composer.
 Use the php dependency manager [composer](https://getcomposer.org/download/) to install package.
 
 ```bash
-composer require nirav-chavda/hello-world-demo
+composer require "nirav-chavda/hello-world-demo @dev"
 ```
 
 ## Usage
