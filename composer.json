@@ -1,0 +1,21 @@
+{
+    "name": "nirav-chavda/hello-world-demo",
+    "description": "This is just a demo package",
+    "type": "library",
+    "authors": [{
+        "name": "nirav-chavda",
+        "email": "niravdchavda@gmail.com"
+    }],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.0.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "HelloWorld": "src/"
+        }
+    },
+    "_comment": [{
+        "autoload": "this will autoload all files inside src with HelloWorld namespace"
+    }]
+}
